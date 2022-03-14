@@ -7,21 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/icons8-clock-50.png" type="image/x-icon">
-    <title>REAL TIME</title>
+    <title>REAL TIME CLOCK</title>
 </head>
 
 <body>
-  
-        <div class="wrapper">
-            <div class="text">WEEKDAY & FULL DATE</div>
 
-            <div class="time">00:00:00 AM</div>
+    <div class="wrapper">
 
-            <script src="script.js"></script>
+        <span class="text" id="text" contenteditable="true"></span>
+        <div>
+            <span id="weekday" contenteditable="true"></span>
+            <span id="name" contenteditable="true"></span>
         </div>
 
-        
+        <time class="time" id="time"></time>
+
+        <script src="script.js"></script>
+    </div>
 
 
-    
+
+
+
 </html>
